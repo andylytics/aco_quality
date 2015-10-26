@@ -23,7 +23,7 @@ shinyUI(fluidPage(
       #(tags$b("Description:"), "there are two tabs, Plots and Tables. Choose a measure group and both will update automatically. This app leverages the ", a("Socrata Open Data API", href = "https://data.medicare.gov/developers"), " so it will always display the most recent data available."),
       #br(),
       p("Data Source: ", a("CMS Physician Compare", href = "https://www.medicare.gov/physiciancompare/aco/search.html")),
-      #p("Code: ", a("Github Repository", href = "https://github.com/andylytics/hospital_compare")),
+      p("Code: ", a("Github Repository", href = "https://github.com/andylytics/aco_quality")),
       p("Created by: ", a("Andy Rosa", href = "https://www.linkedin.com/pub/andrew-rosa/99/787/a64"))
       
 #       selectInput("mgroup",
